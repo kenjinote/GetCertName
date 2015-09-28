@@ -1,7 +1,7 @@
 #pragma comment(lib,"crypt32")
 #include <windows.h>
 
-TCHAR szClassName[] = TEXT("Window");
+TCHAR szClassName[] = TEXT("GetCertName");
 
 BOOL GetCertName(LPCTSTR lpszFilePath, LPTSTR lpszCertName, INT nCertNameLength)
 {
@@ -162,7 +162,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 	RegisterClass(&wndclass);
 	HWND hWnd = CreateWindow(
 		szClassName,
-		TEXT("ƒhƒ‰ƒbƒO‚³‚ê‚½exeAdllAocxAcabAmsi‚Ì–¼Ò–¼‚ğæ“¾‚·‚é"),
+		TEXT("ãƒ‰ãƒ©ãƒƒã‚°ã•ã‚ŒãŸexeã€dllã€ocxã€cabã€msiã®ç½²åè€…åã‚’å–å¾—ã™ã‚‹"),
 		WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT,
 		0,
