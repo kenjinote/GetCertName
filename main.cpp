@@ -1,4 +1,4 @@
-#pragma comment(lib,"crypt32")
+﻿#pragma comment(lib,"crypt32")
 #include <windows.h>
 
 TCHAR szClassName[] = TEXT("GetCertName");
